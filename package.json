@@ -1,0 +1,18 @@
+{
+  "name": "sass-sizer",
+  "version": "0.0.1",
+  "description": "Sass source to output line ratio sizer",
+  "scripts": {
+    "parse": "node parse.js",
+    "build": "node-sass --source-map true --include-path scss scss/app.scss css/app.css"
+  },
+  "author": "Nathan Batson",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "source-map": "^0.7.3"
+  },
+  "keywords": [
+    "scss"
+  ],
+}
