@@ -16,7 +16,7 @@ Try and write some dreadfull sass in the `scss` folder and observe the ratios in
 /* 
     sass-map-ratio.json
 
-    Arrays truncated for example
+    Arrays truncated for this example
 */
 
 {
@@ -37,12 +37,10 @@ Try and write some dreadfull sass in the `scss` folder and observe the ratios in
             1,
             2,
             3
-            // ...
         ],
         "generatedLines": [
             4,
             5,
-            // ...
         ],
         "ratio": 0.75
     },
@@ -50,12 +48,10 @@ Try and write some dreadfull sass in the `scss` folder and observe the ratios in
         "sourceLines": [
             2,
             3
-            // ...
         ],
         "generatedLines": [
             8, 
             9
-            // ...
         ],
         "ratio": 53.333333333333336
     }
