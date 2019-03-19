@@ -1,2 +1,5 @@
 node_modules
 css
+sass-map-ratio.json
+yarn-error.log
+.DS_store

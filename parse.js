@@ -31,7 +31,9 @@ const sassBlamer = SourceMapConsumer.with(rawSourceMap, null, consumer => {
 
     file.ratio = file.generatedLines.length / file.sourceLines.length;
 
-    //fancy output
     console.log(filename + ': ' + file.ratio);
   });
+
+  // write a stats json
+  fs.writeFileSync('./sass-map-ratio.json', JSON.stringify(files, null, 4), 'utf8');
 });
